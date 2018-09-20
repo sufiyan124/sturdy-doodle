@@ -5,8 +5,9 @@
   overflow-x: hidden;
 
 }
+
 body {
-	font-size: 15px;
+    font-size: 15px;
     line-height: 1.52;
     color: #717f86;
     font-size: 16px;
@@ -17,82 +18,48 @@ body h2 , h4 ,p
 {
     font-family: 'Volkhov', serif;
 }
-.big-text
+body h2 , h4 ,p
 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Volkhov', serif;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 .section-padding{
-	padding: 60px 0px;
+    padding: 60px 0px;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Volkhov', serif;
+   font-family: 'Volkhov', serif;
     font-weight: 700;
     color: #4B4B4C;
 }
 a{
-    color: #f7631b;
+    color: #5fcf80;
 }
 a:hover, a:focus{
-    color: #f7631b;
+    color: #5fcf80;
 }
 /***********************************
 Navigation bar
-
 ************************************/
-/* Flip around the padding for proper display in narrow viewports */
-
 .navbar
 {
     font-family: 'Volkhov', serif;
 }
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
-  /* original nav*/
 .navbar-default .navbar-brand {
-    
+    color: #5FCF80;
     background-color: #f7631b;
 }
 .navbar-default {
@@ -107,13 +74,13 @@ Navigation bar
     font-weight: 700;
 }
 .navbar-nav > li > a{
-	padding: 0px;
-	margin: 10px 5px;
-	padding: 10px 15px;
+    padding: 0px;
+    margin: 10px 5px;
+    padding: 10px 15px;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
 {
-	color: #f7631b;
+    color: #f7631b;
 }
 
 .navbar-nav .active a{
@@ -121,20 +88,23 @@ Navigation bar
     color: #f7631b !important;
     outline: none;
 }
-
+.navbar .collapse ul >li> a:hover
+{
+    color:  #f7631b;
+}
 .btn-trial a{
-	background-color: #f7631b;
-	border-radius: 25px;
-	color: #ffffff !important;
-	border: 1px solid #f7631b;
+    background-color: #f7631b;
+    border-radius: 25px;
+    color: #ffffff !important;
+    border: 1px solid #f7631b;
 }
 .btn-trial a:hover, .btn-trial a:focus{
-	border: 1px solid #f7631b;
-	background-color: #fff;
-	color: #f7631b !important;
+    border: 1px solid #f7631b;
+    background-color: #fff;
+    color: #f7631b !important;
 }
 .navbar-default .navbar-brand {
-   font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', cursive !important;
     font-weight: 700;
     text-transform: uppercase;
     padding: 0px;
@@ -143,48 +113,49 @@ Navigation bar
     margin: 20px 0px;
 }
 .navbar-default .navbar-brand span{
-	font-weight: 100 !important;
+    font-weight: 100 !important;
 }
 .navbar {
     margin-bottom: 0px;
 }
 .padding-zero{
-	padding: 0px;
+    padding: 0px;
 }
 .mart20{
-	margin-top: 20px;
+    margin-top: 20px;
 }
 /***********************************
 Banner
 ************************************/
 .banner{
-	/* background: url('../img/bg-banner.jpg') no-repeat center top;  */
-    background-color: #f7631b;
+
+   /*  background: url('../img/bg-banner.jpg') no-repeat center top; */
+   background-color: #f7631b;
     background-size: cover;
-	min-height: 580px;
+    min-height: 580px;
     position: relative;
 }
 .bg-color{
-	background-color: rgba(4, 9, 31, 0.9)
-	min-height: 580px;
+    
+    min-height: 580px;
 }
 .text-dec{
-	font-size: 24px;
-	padding: 10px 20px;
+    font-size: 24px;
+    padding: 10px 20px;
     margin: 15px 0;
-	text-transform: uppercase;
+    text-transform: uppercase;
     color: #fff;
 }
 .text-border{
-	border: 5px solid #fff;
-	display: inline-block;
-	margin-top: 150px;
+    border: 5px solid #fff;
+    display: inline-block;
+    margin-top: 150px;
 }
 .intro-para{
-	font-family: 'Kaushan Script', cursive;
-	font-size: 45px;
-	color: #fff;
-	margin-top: 30px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 30px;
 }
 .quote .btn{
     background-color:
@@ -288,17 +259,16 @@ Banner
 Features
 ************************************/
 h2{
-    
-	font-size: 24px;
-	padding-bottom: 15px;
+    font-size: 24px;
+    padding-bottom: 15px;
 }
 .bottom-line{
-	width: 25px;
-	height: 3px;
-	background-color: rgb(99, 122, 145);
+    width: 25px;
+    height: 3px;
+    background-color: rgb(99, 122, 145);
 }
 .fea{
-	margin-top: 25px;
+    margin-top: 25px;
 }
 .fea-img {
   width: 20%;
@@ -321,7 +291,7 @@ h2{
     text-align: left;
 }
 .heading p {
-    font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   text-align: left;
 }
 /***********************************
@@ -332,7 +302,7 @@ h2{
 }
 .orga-stru
 {
-    background-color: #f7631b;
+    background-color:#f7631b;
     width: 109px;
     height: auto;
     padding: 10px 10px 25px 10px;
@@ -397,7 +367,7 @@ Cta
     min-width: 280px;
     margin-left: -4px;
     margin-bottom: 2px;
-    border: 1px solid #f7631b;
+    border: 1px solid #5fcf80;
     background-color: rgb(247, 247, 247);
     border-radius: 30px 0px 0px 30px;
 }
@@ -419,7 +389,7 @@ Cta
 /***********************************
 Work Shop
 ************************************/
-#events {
+#work-shop {
     background-color: rgb(247, 247, 247);
 }
 .service-box{
@@ -466,6 +436,10 @@ Mentor Team
   color: #4b4b4b;
   font-weight: 100;
 }
+#events a , #faculity-member .pm-staff-profile-name
+{
+    color: #f7631b;
+}
 /***********************************
 Testimonial
 ************************************/
@@ -493,6 +467,9 @@ Course
     background-color: #f7631b;
     color: #fff;
 }
+/***********************************
+Gallery
+************************************/
 
 .container.gallery-container {
     background-color: #fff;
@@ -605,7 +582,6 @@ Price Table
 .pricing-head .amount {
     font-size: 60px;
     font-weight: bold;
-   
 }
 .pricing-head .curency {
     display: inline-block;
@@ -643,7 +619,7 @@ Contact Us
     background: #fafafa;
     border: 1px solid rgba(119, 81, 81, 0.34);
     width: 100%;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
     border-radius: 0;
 
 }
@@ -663,9 +639,9 @@ Contact Us
     color: red;
     display:none;
     margin: 0 0 20px;
-    font-family: 'Merriweather Sans', sans-serif;
     font-weight:400;
     font-size:13px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 #sendmessage {
@@ -689,7 +665,7 @@ Contact Us
 }
 
 #sendmessage.show, #errormessage.show, .show {
-	display:block;
+    display:block;
 }
 /***********************************
 Footer
@@ -705,10 +681,10 @@ Footer
 }
 
 .footer h3{
-	font-weight: 300;
-	letter-spacing: 0.05em;
-	margin: 0 0 40px;
-	font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin: 0 0 40px;
+    font-size: 24px;
 }
 .footer .form-control {
     border-radius: 30px;
@@ -728,6 +704,10 @@ Footer
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
+.footer .social-links li a:hover
+{
+    color: #f7631b;
+}
 .footer .social-links li {
     display: inline-block;
     margin: 0 25px 25px;
@@ -745,18 +725,18 @@ Footer
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .btn-submit:hover, .btn-submit:focus{
-    background-color: #f7631b;
+    background-color:#f7631b;
     color: #fff;
 }
 .btn-submit{
-	padding: 14px 12px;
-	border-radius: 50px;
-	text-transform: uppercase;
+    padding: 14px 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
     background-color: #f7631b;
     color: #fff;
 }
 .btn-submit i{
-	padding-left: 8px;
+    padding-left: 8px;
 }
 
 .btn-sec {
@@ -918,7 +898,6 @@ Responsive media queries
     }
     .navbar-default .navbar-brand{
         margin-left: 10px;
-
     }
     .navbar-default .navbar-nav > li > a{
         text-align: center;
