@@ -440,6 +440,20 @@ Mentor Team
 {
     color: #f7631b;
 }
+
+/***********************************
+Moving text infinite
+************************************/
+
+marquee
+{
+    color:#f7631b;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px; 
+}
+
+
 /***********************************
 Testimonial
 ************************************/
@@ -475,7 +489,7 @@ Gallery
     background-color: #fff;
     color: #35373a;
     min-height: 100vh;
-    padding: 30px 50px;
+    padding: 20px 50px;
 }
 
 .container.gallery-container {
@@ -667,6 +681,58 @@ Contact Us
 #sendmessage.show, #errormessage.show, .show {
     display:block;
 }
+
+
+/* NEWS CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+.news
+{
+    margin: 10px 80px;
+    padding-bottom: 20px;
+    background: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.news h2
+{
+    text-align: center;
+    font-size: 42px;
+    color: #35373a;
+    padding-bottom: 30px;
+}
+/* Carousel base class */
+.carousel-inner .container
+{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top:50%;
+    left: 55%;
+    transform: translate(-50%,-50%); 
+}
+.carousel-inner .container h1
+{
+    position: absolute;
+    margin:0;
+    padding-top:20px;
+    color: #35373a;
+    position: absolute;
+    top:10%;
+    left: 45%;
+    transform: translate(50%,50%);
+}
+.carousel-inner .container  p
+{
+    position: absolute;
+    margin: 0;
+    padding:0;
+    color: #35373a;
+    font-family: 'Merriweather Sans', sans-serif;
+    top:30%;
+    left: 30%;
+    transform: translate(50%,50%);
+    
+}
+
 /***********************************
 Footer
 ************************************/
